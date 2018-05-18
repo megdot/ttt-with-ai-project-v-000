@@ -24,6 +24,6 @@ class Game
       @player_2
     end
   end
-  
+
 
 end
