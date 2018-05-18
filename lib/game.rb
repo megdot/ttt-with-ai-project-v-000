@@ -28,13 +28,10 @@ class Game
   def won?
     WIN_COMBINATIONS.detect do |winner|
       @board.cells[winner[0]] == @board.cells[winner[1]] &&
-      @board.cells[winner[1]] == @board.cells[winner[2]] 
+      @board.cells[winner[1]] == @board.cells[winner[2]]
     end
   end
 
-    end
-  end
 
-  end
 
 end
