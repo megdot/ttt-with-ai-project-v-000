@@ -44,6 +44,13 @@ class Game
     won? || draw?
   end
 
+  def winner
+    if winning_combo = won?
+      @winner = @baord.cells[winning_combo.first]
+    else
+      nil
+    end
+  end
 
 
 end
