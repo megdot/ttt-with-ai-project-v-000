@@ -40,6 +40,9 @@ class Game
     end
   end
 
+  def over?
+  end
+
 
 
 end
